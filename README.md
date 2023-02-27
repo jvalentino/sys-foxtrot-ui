@@ -1,27 +1,14 @@
-# System Echo (UI)
+# System Foxtrot (UI)
+
+This application serves the UI as a part of the overall https://github.com/jvalentino/sys-foxtrot project. For details system document, please see that location.
 
 Prerequisites
 
-- https://github.com/jvalentino/sys-alpha-bravo
-- https://github.com/jvalentino/sys-charlie
-- https://github.com/jvalentino/sys-delta
+- Node
+- Visual Studio Code
+- Git
 
-This is an example system that it used to demonstrate different architectural approaches as they relate to scalability. Its core functions are the following:
-
-- The system shall allow a user to add documents
-- The system shall version documents
-- The system shall allow a user to download a document
-
-This specific implementation uses a 3-tier architecture, where the front-end has been broken into its own independent application is separately load balanced.
-
-It specifically now consists of two repositories
-
-- https://github.com/jvalentino/sys-echo-rest
-- https://github.com/jvalentino/sys-echo-ui
-
-For a full architecture description please see https://github.com/jvalentino/sys-echo-rest
-
-# Developer
+All of these you can get in one command using this installation automation (if you are on a Mac): https://github.com/jvalentino/setup-automationDeveloper
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
